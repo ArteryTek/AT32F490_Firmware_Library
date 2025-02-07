@@ -9,7 +9,8 @@
   fullduplex mode transfer data by polling mode.
   the pins connection as follow:
   - spi2                     spi3 
-    pb1(sck)       <--->     pc10(sck)
+    pb12(cs)       <--->     pa4(cs)
+    pb13(sck)      <--->     pc10(sck)
     pc2(miso)      <--->     pc11 (miso)
     pc3(mosi)      <--->     pc12(mosi)
 

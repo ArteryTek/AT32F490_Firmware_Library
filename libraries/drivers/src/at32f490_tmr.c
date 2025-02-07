@@ -1782,7 +1782,7 @@ void tmr_brkdt_config(tmr_type *tmr_x, tmr_brkdt_config_type *brkdt_struct)
   */
 void tmr_brk_filter_value_set(tmr_type *tmr_x, uint8_t filter_value)
 {
-  tmr_x->brk_bit.bkf = filter_value;
+  tmr_x->brk_bit.brkf = filter_value;
 }
 
 /**
